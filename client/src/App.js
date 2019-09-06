@@ -1,12 +1,12 @@
 import React from 'react';
-import Player1 from './Components/Player1';
+import Player from './Components/Player';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Player1 />
+        <Player />
       </header>
     </div>
   );

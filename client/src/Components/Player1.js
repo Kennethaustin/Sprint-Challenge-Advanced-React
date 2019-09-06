@@ -6,7 +6,7 @@ function Player1(props) {
 
     return ([
         <>
-            {props.data.map(player => (
+            {props.data && props.data.map(player => (
                 <div key={player.id} className="player" data-testid='player-div'>
                     <button data-testid='fun-btn' onClick={setNewMode}>Have fun!</button>
                     <div>

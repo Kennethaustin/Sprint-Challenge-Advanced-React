@@ -12,5 +12,5 @@ it('renders without crashing', () => {
 });
 test('displays text', () => {
   const { getByTestId } = render(<Player />);
-  expect(getByTestId('rapinoe')).toHaveTextContent('I love:');
+  expect(getByTestId('rapinoe')).toHaveTextContent('go rapinoe:');
 })

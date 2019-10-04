@@ -20,25 +20,6 @@ function Player1(props) {
     ])
 }
 
-// class Player1 extends React.Component {
-
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             player: props.data
-//         }
-//     }
-
-//     render() {
-//         return(
-//             <div>
-//                 <h1>Name: {this.props.name}</h1>
-//                 <p>Country: { this.props.country}</p>
-//             </div>
-//         );
-//     }
-
-// }
 
 
 

@@ -22,7 +22,7 @@ class Player extends React.Component {
     render() {
         return (
             <section className='player'>
-                <p data-testid='rapinoe'>I like: 
+                <p data-testid='rapinoe'>Go rapinoe: 
                 {this.state.rapinoe}</p>
                 <Player1 data={this.state.players} />
             </section>
